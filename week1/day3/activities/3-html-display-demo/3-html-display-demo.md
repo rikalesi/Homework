@@ -13,6 +13,24 @@ src
 └── index.html
 ```
 
+---
+
+### About the display property
+
+- We use the `display` property to set whether an element behaves as an inline or a block element
+
+  - **Inline elements** only occupy as much width as needed and do not automatically start a new line.
+
+    - Images and `<a>` elements are examples of inline elements.
+
+  - **Block elements** always start on a new line and occupy as much width as there is available.
+
+    - Paragraph and unordered lists are examples of block elements.
+
+  - We can also use `display` to hide an element.
+
+---
+
 ## style.css
 
 ```css
@@ -46,15 +64,15 @@ section {
 .second-element {
   background-color: goldenrod;
 }
-/* Sets display of all elements with class selector to block */
+/* We use `display: block` to indicate a block element, which will occupy the whole width available */
 .display-block {
   display: block;
 }
-/* Sets display of all elements with class selector to inline */
+/* We use `display: inline` to indicate an inline element, which will only occupy the necessary width */
 .display-inline {
   display: inline;
 }
-/* Sets display of all elements with class selector to inline */
+/* We use `display: none` to completely remove an image so that it does not appear on the page and no longer occupies space in the layout */
 .display-none {
   display: none;
 }

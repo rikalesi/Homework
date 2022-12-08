@@ -16,6 +16,8 @@ Work in your group to implement the following user stories:
 
 - As a client, I want the landing page to have a polished and accessible UI.
 
+- Be creative! You can choose your own colors, text, and image.
+
 ## Acceptance Criteria
 
 - It's done when the page uses semantic HTML elements.

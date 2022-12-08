@@ -32,12 +32,13 @@ section {
   margin: 30px auto;
   border: 10px solid black;
 }
-/* Relative positioning */
+/* When an element's position is `relative`, it stays in the normal flow but can be offset by a value provided in the CSS
+ */
 #relative-box {
   position: relative;
   left: 200px;
 }
-/* Absolute positioning */
+/*When an element's position is `absolute`, it is no longer in the normal flow but instead is positioned relative to its ancestor element and is determined by values provided for top, bottom, left, and right */
 #absolute-section {
   position: relative;
 }
@@ -46,7 +47,7 @@ section {
   top: 50px;
   right: 100px;
 }
-/* Fixed positioning */
+/* An element in the `fixed` position is also not in the normal flow. However, unlike `absolute`, the position is determined in relation to the viewport */
 #fixed-box {
   position: fixed;
   bottom: 0;
