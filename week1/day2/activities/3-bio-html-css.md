@@ -72,7 +72,7 @@
       <section>
         <h2>Your Name</h2>
 
-        <img src="https://placehold.it/200x200" alt="Your Name" />
+        <img src="https://via.placeholder.com/200x200" alt="Your Name" />
 
         <p>
           Write a short paragraph or two about yourself, or use placeholder text
